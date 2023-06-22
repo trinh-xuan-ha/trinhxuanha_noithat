@@ -4,21 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Giỏ hàng</title>
+    <title>Tài khoản</title>
     <link rel="stylesheet" href="/mainnoithat.css">
-    <link rel="stylesheet" href="./themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="/themify-icons/themify-icons.css">
     <link rel="import" href="https://fontawesome.com">
-    <link rel="stylesheet" href="./icon/fontawesome-free-6.2.0-web/css/all.min.css">
+    <link rel="stylesheet" href="/icon/fontawesome-free-6.2.0-web/css/all.min.css">
     <!-- <link rel="stylesheet" href="./theme-icon.css"> -->
     <link rel="icon" href="./ảnh/trinh_xuan_ha_img.jpg" type="">
-
-    <link rel="stylesheet" href="./grid.css">
+    <!-- <link rel="stylesheet" href="./account.css"> -->
+    <link rel="stylesheet" href="./">
     
 
 </head>
 <body>
-    <div id="main">
-        
+    <div id="main grid wite">
         <div id="header">
             <div id="header-list-cart">
 
@@ -34,10 +33,10 @@
                             <i class="account-user-icon ti-angle-down"></i>
                             <ul class="user-menu">
                                 <li title="Đăng Nhập">
-                                    <a href="./account/login.html">đăng nhập</a>
+                                    <a href="./login.html">đăng nhập</a>
                                     </li>
                                 <li title="Đăng Ký">
-                                    <a href="./account/signup.html">đăng ký</a>
+                                    <a href="./signup.html">đăng ký</a>
                                     </li>
                             </ul>
                         </span>
@@ -249,16 +248,16 @@
                                         
                                         <ul class="navbar-item">
                                             <li>
-                                                <a href="./Spadesign1.html">Thiết kế spa</a>
+                                                <a href="/Spadesign1.html">Thiết kế spa</a>
                                             </li>
                                             <li>
-                                                <a href="./naildesign1.html">Nội thất nail</a>
+                                                <a href="/naildesign1.html">Nội thất nail</a>
                                                 </li>
                                             <li>
-                                                <a href="./salondesign1.html">Thiết kế nội thất salon tóc</a>
+                                                <a href="/salondesign1.html">Thiết kế nội thất salon tóc</a>
                                             </li>
                                             <li class="boder-list">
-                                                <a href="./kitchendesign.html">Thiết kế nhà bếp</a>
+                                                <a href="/kitchendesign.html">Thiết kế nhà bếp</a>
                                             </li>
                                         </ul>
                                    
@@ -296,129 +295,163 @@
                 </div>
             </div>
         </div>
-        <div id="shoppingcar">
-            <div class="shopping grid wide">
-                <div class="user"> 
-                    <span>
-                        <a href="./webnoithat.html">Trang chủ</a>
-                        <i class="ti-angle-double-right"></i>
-                        <p>Giỏ hàng</p>
-                    </span>
-                    <h4>Giỏ hàng</h4>
-                    <p class="shopping-car-not">
-                        <i class="no-cart_shop color-primary ti-shopping-cart"></i> 
-                        Chưa có sản phẩm nào trong giỏ hàng
-                    </p>
-                    <a href="./webnoithat.html" class="shopping-button">
-                        <i class="home_shoppingcar ti-home"></i>
-                        Quay trở lại trang chủ
-                    </a>
+        <div id="navbar">
+            <div class="user grid wite">
+                <span>
+                    <a href="../webnoithat.html">Trang chủ</a>
+                    
+                    <i class="ti-angle-double-right"></i>
+                    <p>Tài khoản</p>
+                </span>
+                <h4>Tài khoản</h4>
+            </div>
+            <div class="account row">
+                <div class="login col pc-6">
+                    <h3>Đăng nhập</h3>
+                    <form action="">
+                        <div class="navigation-search">
+                            <label for="">Tên tài khoản hoặc địa chỉ email
+                                <i class="ti-shine"></i>
+                            </label>
+                            <input type="email" class="search-input" required id="" placeholder="Nhập địa chỉ email của bạn"></input>                         
+                         </div>
+                         <div class="navigation-search">
+                            <label for="">Mật khẩu
+                                <i class="ti-shine"></i>
+                            </label>
+                            <input type="password" class="search-input" required id="" placeholder="Nhập địa chỉ email của bạn"></input>                         
+                         </div>
+                         <div class="userinput">
+                            <input type="submit" class="btn-read-text" id="" value="Đăng Nhập"
+                            required></input>
+                            <input type="checkbox" class="checkbox"> Ghi nhớ mật khẩu
+                         </div>
+                         <p>Quên mật khẩu?</p>
+                            
+                    </form>  
+                </div>
+                <div class="login col pc-6">
+                    <h3>Đăng Ký</h3>
+                    <form action="">
+                        <div class="navigation-search">
+                            <label for="">Địa chỉ email
+                                <i class="ti-shine"></i>
+                            </label>
+                            <input type="email" class="search-input" required id="" placeholder="Nhập địa chỉ email của bạn"></input>                         
+                         </div>
+                         <div class="navigation-search">
+                            <label for="">Một mật khẩu sẽ được gửi tới địa chỉ email của bạn
+                               
+                            </label>                       
+                         </div>
+                         <div class="userinput">
+                            <input type="submit" class="btn-read-text" id="" value="Đăng Ký"
+                            required></input>       
+                    </form>  
                 </div>
             </div>
         </div>
-        <div id="footer">
-            <div class="header">
-                <div class="header-list-logo">
-                    <!-- <img src="./ảnh/logohatx.png" alt="" class="img-logo"> -->
-                    <div title="Nội Thất Ha-tx" class="header-img">
-                        <div class="header-img-card">
-                            <i class="icon-circle fa-solid fa-circle-h"></i>
-                            <h4>Ha-Tx</h4>
-                        </div>
-                        <p>nội thất gia đinh, spa, nail, salon</p>
+        
+    </div>
+    <div id="footer">
+        <div class="header">
+            <div class="header-list-logo">
+                <!-- <img src="./ảnh/logohatx.png" alt="" class="img-logo"> -->
+                <div title="Nội Thất Ha-tx" class="header-img">
+                    <div class="header-img-card">
+                        <i class="icon-circle fa-solid fa-circle-h"></i>
+                        <h4>Ha-Tx</h4>
                     </div>
-                    <ul class="text-list">
-                        <li>văn phòng: Nguyễn Ngọc Vũ, Cầu Giấy, Hà Nội</li>
-                        <li>Nhà xưởng Spa:Nghĩa hưng, quốc oai, Hà nội</li>
-                        <li>nhà xưởng kệ lắp ghép: phù cừ, hưng yên</li>
-                        <li>hotline: 0327761969</li>
-                        <li>gmail: trinhxuanha01@gmail.com</li>
-                        <li class="textnone">Website: https://hatx.com</li>
-                        <div class="list-logo-icon">
-                            <ul class="logo-icon">
-                                <li>
-                                    <a href="https://www.facebook.com/profile.php?id=100046515844695">
-    
-                                        <i class="ti-facebook"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://twitter.com/Ha__Tx">
-                                        <i class="ti-twitter-alt"></i>
-    
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://www.pinterest.com/waittwoyear666/">
-    
-                                        <i class="ti-pinterest"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://www.instagram.com/ha___tx/">
-                                        <i class="ti-instagram"></i>
-                                    </a>
-                                </li>
-                                
-                            </ul>
-                        </div>
-                    </ul>
+                    <p>nội thất gia đinh, spa, nail, salon</p>
                 </div>
-                <div class="header-list-cart">
-                    <div class="list-cart-one">
-                        <h5>danh mục</h5>
-                        <ul class="text-cart">
-                            <li>nội thất spa</li>
-                            <li>nội thất gia đình</li>
-                            <li>nội thất nail</li>
-                            <li>nội thất salon tóc</li>
-                            <li>nội thất decor trang trí</li> 
-                            <li>ảnh bàn giao khách hàng</li>
+                <ul class="text-list">
+                    <li>văn phòng: Nguyễn Ngọc Vũ, Cầu Giấy, Hà Nội</li>
+                    <li>Nhà xưởng Spa:Nghĩa hưng, quốc oai, Hà nội</li>
+                    <li>nhà xưởng kệ lắp ghép: phù cừ, hưng yên</li>
+                    <li>hotline: 0327761969</li>
+                    <li>gmail: trinhxuanha01@gmail.com</li>
+                    <li class="textnone">Website: https://hatx.com</li>
+                    <div class="list-logo-icon">
+                        <ul class="logo-icon">
+                            <li>
+                                <a href="https://www.facebook.com/profile.php?id=100046515844695">
+
+                                    <i class="ti-facebook"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/Ha__Tx">
+                                    <i class="ti-twitter-alt"></i>
+
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.pinterest.com/waittwoyear666/">
+
+                                    <i class="ti-pinterest"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/ha___tx/">
+                                    <i class="ti-instagram"></i>
+                                </a>
+                            </li>
+                            
                         </ul>
                     </div>
-                    <div class="list-cart-two">
-                        <h5>chính sách</h5>
-                        <ul class="text-cart">
-                            <li>trang chủ</li>
-                            <li>giới thiệu</li>
-                            <li>sản phẩm</li>
-                            <li>tin tức</li>
-                            <li>liên hệ</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="header-list-sale">
-                  <div class="list-sale">
-                    <h5>nhận thông tin khuyến mãi</h5>
-                    <ul class="text-sale">
-                        <li>đừng bỏ lỡ hàng ngàn sản phẩm và chương trình siêu hấp dẫn</li>
+                </ul>
+            </div>
+            <div class="header-list-cart">
+                <div class="list-cart-one">
+                    <h5>danh mục</h5>
+                    <ul class="text-cart">
+                        <li>nội thất spa</li>
+                        <li>nội thất gia đình</li>
+                        <li>nội thất nail</li>
+                        <li>nội thất salon tóc</li>
+                        <li>nội thất decor trang trí</li> 
+                        <li>ảnh bàn giao khách hàng</li>
                     </ul>
-                    <form action="">
-                        <div class="navigation-search">
-                            <input type="email" class="search-input" required id="" placeholder="Nhập địa chỉ email của bạn"></input>                         
-                         </div>
-     
-                            <input type="submit" class="btn-read-text" id="" value="Đăng Ký"
-                            required></input>
-                    </form>   
-    
-                  </div>  
+                </div>
+                <div class="list-cart-two">
+                    <h5>chính sách</h5>
+                    <ul class="text-cart">
+                        <li>trang chủ</li>
+                        <li>giới thiệu</li>
+                        <li>sản phẩm</li>
+                        <li>tin tức</li>
+                        <li>liên hệ</li>
+                    </ul>
                 </div>
             </div>
-            <div class="navbar">
-                <div class="card-navbar">
-                    <div class="navbar-list">
-                        <!-- <i class="fa-regular fa-copyright"></i> -->
-                        <p>&copy;bản quyền thuộc về nội thất Ha-Tx </p>
-                        <Span>cung cấp bởi Ha-Tx</Span>
-                    </div>
-                    <div class="list-logo">
-                        <img src="./ảnh/cardallhh.jpg" alt="" class="logo-img-one">
-                    </div>
+            <div class="header-list-sale">
+              <div class="list-sale">
+                <h5>nhận thông tin khuyến mãi</h5>
+                <ul class="text-sale">
+                    <li>đừng bỏ lỡ hàng ngàn sản phẩm và chương trình siêu hấp dẫn</li>
+                </ul>
+                <form action="">
+                    <div class="navigation-search">
+                        <input type="email" class="search-input" required id="" placeholder="Nhập địa chỉ email của bạn"></input>                         
+                     </div>
+ 
+                        <input type="submit" class="btn-read-text" id="" value="Đăng Ký"
+                        required></input>
+                </form>   
+
+              </div>  
+            </div>
+        </div>
+        <div class="navbar">
+            <div class="card-navbar">
+                <div class="navbar-list">
+                    <!-- <i class="fa-regular fa-copyright"></i> -->
+                    <p>&copy; bản quyền thuộc về nội thất Ha-Tx </p>
+                    <Span>cung cấp bởi Ha-Tx</Span>
+                </div>
+                <div class="list-logo">
+                    <img src="/ảnh/cardallhh.jpg" alt="" class="logo-img-one">
                 </div>
             </div>
         </div>
     </div>
-    <script src="main.js"></script>
-</body>
-</html>    
