@@ -1,0 +1,1 @@
+const activapage = window.location.pathname;

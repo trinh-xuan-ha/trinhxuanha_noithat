@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <span class="header-cart-notice">0</span>
+<button id="buy-button">MUA HÀNG</button>
+<script>
+    // Lấy phần tử HTML hiển thị số lượng đơn hàng
+    var orderCountElement = document.querySelector('.header-cart-notice');
+  
+    // Lấy phần tử HTML của nút "MUA HÀNG"
+    var buyButton = document.getElementById('buy-button');
+  
+    // Lắng nghe sự kiện click trên nút "MUA HÀNG"
+    buyButton.addEventListener('click', function(event) {
+      event.preventDefault(); // Ngăn chặn hành vi mặc định của nút
+  
+      // Lấy giá trị số lượng nhập vào
+      var quantityInput = document.getElementById('quantity-input');
+      var quantity = parseInt(quantityInput.value);
+      
+      // Kiểm tra số lượng nhập vào hợp lệ (lớn hơn 0)
+      if (quantity > 0) {
+        // Cập nhật số lượng đơn hàng
+        orderCountElement.textContent = quantity;
+      }
+    });
+  </script>
+</body>
+</html>

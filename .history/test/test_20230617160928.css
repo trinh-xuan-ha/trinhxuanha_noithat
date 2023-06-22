@@ -1,0 +1,7 @@
+.item-list__btn {
+  color: black;
+}
+
+.item-list__btn:is(:link, :active, :visi).active {
+  color: red;
+}

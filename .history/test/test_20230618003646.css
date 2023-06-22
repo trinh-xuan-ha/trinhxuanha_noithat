@@ -1,0 +1,48 @@
+/* .item-list__btn {
+  color: black;
+  background-color: aqua;
+}
+.item-list__btn:hover {
+  color:red;
+}
+
+.item-list__btn:is(:link, :active, :visited).active {
+  color: red;
+  background-color: blue;
+} */
+.item-list__btn {
+  color: black;
+  background-color: aqua;
+}
+
+.item-list__btn:hover {
+  color: red;
+}
+
+.item-list.active .item-list__btn {
+  color: red;
+  background-color: blue;
+}
+/* :root{
+  --white-color:#fff;
+  --black-color:#000;
+  --text-color:#333333;
+  --main-color:#3e2520;
+  --primary-color:rgb(255,87,54);
+  --border-color:#dbdbdb;
+  --width: 1200px;
+
+}
+.item-list {
+  list-style: none;
+  position: relative;
+  background-color: var(--main-color);
+  color: var(--white-color);
+}
+.item-list:hover{
+   background-color: var(--primary-color);  
+} 
+.item-list:is(:link, :active, :visited).active {
+  color: var(--white-color);
+  background-color: var(--primary-color);
+} */

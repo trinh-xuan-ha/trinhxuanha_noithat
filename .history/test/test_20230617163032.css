@@ -1,0 +1,12 @@
+.item-list__btn {
+  color: black;
+  background-color: aqua;
+}
+.item-list__btn:hover {
+  color:red;
+}
+
+.item-list__btn:is(:link, :active, :visited).active {
+  color: red;
+  ba
+}

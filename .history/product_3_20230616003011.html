@@ -1,0 +1,1072 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sản phẩm</title>
+    <link rel="stylesheet" href="./mainnoithat.css">
+    <link rel="stylesheet" href="./themify-icons/themify-icons.css">
+
+    <link rel="import" href="https://fontawesome.com">
+    <link rel="stylesheet" href="../icon/fontawesome-free-6.2.0-web/css/all.min.css">
+    <!-- <link rel="stylesheet" href="./theme-icon.css"> -->
+    <link rel="icon" href="./ảnh/trinh_xuan_ha_img.jpg" type="">
+    <link rel="stylesheet" href="./main.js">
+
+    <link rel="stylesheet" href="./grid.css">
+    
+
+</head>
+<body>
+    <div id="main">
+        <script src="main.js"></script>
+        <div id="header">
+            <div id="header-list-cart">
+
+                <div id="header-list">
+                    <div class="introduce">
+                        <i class="introduce-item ti-world"></i>
+                        <span class="introduce-text">Giảm giá 5% cho các đơn hàng số lượng lớn</span>
+    
+                    </div>
+                    <div class="account">
+                        <span class="account-user">
+                            tài khoản
+                            <i class="account-user-icon ti-angle-down"></i>
+                            <ul class="user-menu">
+                                <li title="Đăng Nhập">
+                                    <a href="./account/login.html">đăng nhập</a>
+                                    </li>
+                                <li title="Đăng Ký">
+                                    <a href="./account/signup.html">đăng ký</a>
+                                    </li>
+                            </ul>
+                        </span>
+    
+                    </div>
+                    
+                </div>
+
+            </div>
+            <div id="header-cart">
+                <!-- <div id="header-cart-logo"> -->
+                    <!-- <img title="Nội Thất Ha-tx" src="./ảnh/logohatx.png" alt="" class="header-img"> -->
+                    
+                    <div title="Nội Thất Ha-tx" class="header-img">
+                        <div class="header-img-card">
+                            <i class="icon-circle fa-solid fa-circle-h"></i>
+                            <h4>Ha-Tx</h4>
+                        </div>
+                        <p>nội thất gia đinh, spa, nail, salon</p>
+                    </div>
+
+                <!-- </div> -->
+                <div id="header-cart-list">
+                    <div class="header-livery">
+                        <div class="header-item header-item-1">
+                            <i class="header-livery-icon color-blue_one ti-truck "></i>
+                        </div>
+                        <div class="cart-text">
+                            <h3 class="text-delivery">giao hàng</h3>
+                            <p class="text-notification">lắp đặt trực tiếp</p>
+                        </div>
+                    </div>
+                    <div class="header-livery">
+                        <div class="header-item header-item-2">
+                            <i class="header-livery-icon color-blue_two ti-check-box"></i>
+                        </div>
+                        <div class="cart-text">
+                            <h3 class="text-delivery">chất lượng</h3>
+                            <p class="text-notification">bảo đảm chất lượng</p>
+                        </div>
+                    </div>
+                    <div class="header-livery">
+                        <div class="header-item header-item-3">
+                            <i class="header-livery-icon color-red ti-bell"></i>
+                        </div>
+                        <div class="cart-text">
+                            <h3 class="text-delivery">nguồn gốc</h3>
+                            <p class="text-notification">nhập khẩu chính hãng</p>
+                        </div>
+                    </div>
+                    <div class="header-livery no-cart">
+                        <div class="header-item header-item-4">
+                            <i class="header-livery-icon color-primary ti-shopping-cart"></i>
+                            <span class="header-cart-notice">0</span>
+                            
+                        </div>
+                        <div class="cart-text">
+                            <h3 class="text-delivery-shopping">giỏ hàng</h3>
+                            
+                        </div>
+                        <div class="header-livery-no-cart">
+                            <div class="hlnc-inner">
+                                <h3 class="no-cart-load">Giỏ hàng trống</h3>
+                                <div class="no-cart-list">
+                                    <a href="/shoppingcar.html" class="no-cart-btn btn btn--primary">Xem giỏ hàng</a>
+                                    <a href="/shoppingcar.html" class="no-cart-btn btn btn--primary home-filter__btn">Thanh toán</a>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+                
+            </div>
+            <div id="navigation">
+                <div class="navigation-navbar">
+                    
+                        <div class="navigation-nav-list">
+
+                            <ul class="navigation-item">
+                                <li class="item-list">
+                                    <button class="item-list__btn home-filter__btn btn active" onclick="changeColor(this)">
+                                        <div class="item-list_icon">
+                                            <a href="./webnoithat.html" id="homepages">trang chủ</a>
+
+                                        </div>
+                                    </button>
+                                </li>
+                                <li class="item-list">
+                                    <button class="item-list__btn home-filter__btn btn" onclick="changeColor(this)">
+                                        <div class="item-list_icon">
+                                            <a href="./introduce.html" id="tntroduces">giới thiệu</a>
+
+                                        </div>
+                                    </button></li>
+                                <li class="item-list">
+                                    <button class="item-list__btn home-filter__btn btn  one" onclick="changeColor(this)">
+                                        <div class="item-list_icon">
+                                            <a href="./product.html" id="products">sản phẩm</a>
+                                            <i class="btn-icon ti-angle-down"></i>
+
+                                        </div>
+                                        <div class="navigation-subnav">
+                                            <div class="navigation-subnav-list">
+                                                <div class="subnav-list-all">
+                                                    <h4 class="header-subnav">nội thất spa</h4>
+                                                    <ul class="header-subnav-list">
+        
+                                                        <li>giường spa</li>
+                                                        <li>giường phun săm thẩm mĩ</li>
+                                                        <li>xe đẩy spa</li>
+                                                        <li>ghế ktv spa</li>
+                                                        <li>tủ sản phẩm spa</li>
+                                                        <li>giường gội spa</li>
+                                                        <li>quầy thu ngân</li>
+                                                        <li>vách ngăn giường spa</li>
+                                                        <li>ghế sofa spa</li>
+                                                        <li>kệ đừng máy spa</li>
+                                                        <li>ghế foot massage</li>
+                                                        <li>phòng xông hơi</li>
+                                                        <li>phòng xông hơi khô</li>
+                                                        <li>phòng xông hơi ướt</li>
+                                                        <li>phòng xông hơi 2 in 1</li>
+                                                        <li>kệ gỗ spa</li>
+                                                        <li>bồn ngâm massage</li>
+                                                        <li>chậu ngâm massage</li>
+                                                        <li>bồn tắm massage</li>
+                                                        <li>bồn tắm float</li>
+                                                    </ul> 
+                                                </div>
+                                                <div class="subnav-list-all">
+                                                    <h4 class="header-subnav">nội thất salon tóc</h4>
+                                                    <ul class="header-subnav-list">
+        
+                                                        <li>gương cắt tóc</li>
+                                                        <li>gương barber cặt tóc nam</li>
+                                                        <li>tủ gương cắt tóc</li>
+                                                        <li>ghế cắt tóc</li>
+                                                        <li>gương gội đầu salon tóc</li>
+                                                        <li>gương gội đầu massage 2 in 1</li>
+                                                        <li>quầy thu ngân salon tóc</li>
+                                                        <li>tủ cạnh gương</li>
+                                                        <li>tủ salon tóc</li>
+                                                        <li>ghế sofa salon tóc</li>
+                                                        <li>ghế ngồi gội</li>
+                                                        <li>vách ngăn phòng salon tóc</li>
+                                                    </ul> 
+                                                </div>
+                                                <div class="subnav-list-all">
+                                                    <h4 class="header-subnav">nội thất nail</h4>
+                                                    <ul class="header-subnav-list">
+        
+                                                        <li>bàn làm nail</li>
+                                                        <li>ghế làm móng chân nail</li>
+                                                        <li>kệ gỗ nail</li>
+                                                        <li>quầy thu ngân tiệm nail</li>
+                                                        <li>ghế sofa nail</li>
+                                                        <li>ghế nối mi</li>
+                                                        <li>vách ngăn phòng nail</li>
+                                                    </ul> 
+                                                </div>
+                                                <div class="subnav-list-all">
+                                                    <h4 class="header-subnav">nội thất decor trang trí</h4>
+                                                    <ul class="header-subnav-list">
+        
+                                                        <li>kệ ghỗ decor</li>
+                                                        <li>bàn decor</li>
+                                                        <li>tue decor</li>
+                                                        <li>nội thất decor gia đình</li>
+                                                        <li>kệ tường decor</li>
+                                                        <li>nội thất decor thẩm mĩ viện</li>
+                                                        <li>nội thất decor nail mi</li>
+                                                        <li>nội thất decor salon tóc</li>
+                                                        <li>tue salon tóc decor</li>                        
+                                                    </ul> 
+                                                </div>
+                                                <div class="subnav-list-all">
+                                                    <h4 class="header-subnav">nội thất gia đình</h4>
+                                                    <ul class="header-subnav-list">
+        
+                                                        <li>đồ ghỗ gia dụng</li>
+                                                        <li>tủ ghỗ đựng đồ</li>
+                                                        <li>tủ ghỗ cổ điển</li>
+                                                        <li>tủ ghỗ decor</li>
+                                                        <li>tủ dựng sách</li>
+                                                        <li>tủ quần áo</li>
+                                                        <li>tủ đựng giày</li>
+                                                        <li>tủ bếp</li>
+                                                        <li>bàn ghế gỗ decor</li>
+                                                        <li>bàn ghỗ decor</li>
+                                                        <li>ghế ngỗ decor</li>
+                                                        <li>tủ đầu giường</li>
+                                                        <li>kệ tivi</li>
+                                                        <li>bàn làm việc,bàn học</li>
+                                                        <li>kệ ghỗ đựng đồ gia đình</li>
+                                                        <li>bàn trang điểm</li>
+                                                        <li>bàn ăn gia đình</li>
+                                                        <li>bàn ghế gỗ chạm khắc</li>
+                                                        <li>giường ngủ</li>
+                                                        <li>ghế sofa</li>
+                                                        <li>sofa trung cư</li>
+                                                        <li>sofa gỗ óc chó</li>
+                                                        <li>vách ngăn phòng</li>
+                                                        <li>trường kỷ gỗ</li>
+                                                        <li>kệ gỗ phòng tắm decor</li>
+                                                    </ul> 
+                                                </div>
+                                            </div>
+                                            
+                                        </div>
+                                    </button>
+                                </li>
+                                <li class="item-list">
+                                    <button class="item-list__btn home-filter__btn btn two" onclick="changeColor(this)">
+                                        <div class="item-list_icon">
+                                            <a href="./introduction.html" id="introductions">nội thất hoàn thiện</a>
+                                            <i class="btn-icon ti-angle-down"></i>
+
+                                        </div>
+                                        <ul class="navbar-item">
+                                            <li>
+                                                <a href="/Spadesign1.html">Thiết kế spa</a>
+                                            </li>
+                                            <li>
+                                                <a href="/naildesign1.html">Nội thất nail</a>
+                                                </li>
+                                            <li>
+                                                <a href="/salondesign1.html">Thiết kế nội thất salon tóc</a>
+                                            </li>
+                                            <li class="boder-list">
+                                                <a href="/kitchendesign.html">Thiết kế nhà bếp</a>
+                                            </li>
+                                        </ul>
+                                    </button>
+                                </li>
+                                <li class="item-list">
+                                    <button class="item-list__btn home-filter__btn btn  three" onclick="changeColor(this)">
+                                        <div class="item-list_icon">
+                                            <a href="" id="news">tin tức</a>
+                                            <i class="btn-icon ti-angle-down"></i>
+
+                                        </div>
+                                       <ul class="item-list-new">
+                                        <li>
+                                            <a href="./family.html">nhà đẹp</a>
+                                            
+                                        </li>
+                                        <li class="boder-list">
+                                            <a href="./customerphotos.html">ảnh bàn giao khách</a>
+                                            
+                                        </li>
+                                       </ul>
+                                        
+                                    </button>
+                                </li>
+                                <li class="item-list">
+                                    <button class="item-list__btn home-filter__btn btn" id="contact--btn" onclick="changeColor(this)">
+                                        <div class="item-list_icon">
+                                            <a href="./hotline.html" id="hotlines">liện hệ</a>
+
+                                        </div>
+                                     
+                                    </button>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="navigation-search">
+                           <input type="text" class="search-input" placeholder="Tìm kiếm sản phẩm ..."></input>                         
+                            <i class="search-icon ti-search"></i>
+                        </div>
+                    
+
+                </div>
+            </div>
+        </div>
+        <div id="product" class="grid wide">
+            <div class="navbar row">
+                
+                    <nav class="navbar-list col pc-3">
+                        <section class="category">
+                            <h2 class="category-text boder_bottom">Danh mục</h2>
+                            <section class="category-list">
+                                <ul>
+                                    <li>
+                                        <a class="list-text" href="./webnoithat.html">
+                                            <i class="ti-control-play"></i>
+                                            Trang chủ
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="./introduce.html">
+                                            <i class="ti-control-play"></i>
+                                            Giới thiệu
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <i class="ti-control-play"></i>
+                                            Sản phẩm
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <i class="ti-control-play"></i>
+                                            Nội thất hoàn thiện
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <i class="ti-control-play"></i>
+                                            Tin tức 
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <i class="ti-control-play"></i>
+                                            liên hệ
+                                        </a>
+                                    </li>
+                                    
+                                </ul>
+                            </section>
+                        </section>
+                        <section class="category">
+                            <h2 class="category-text boder_bottom">Thương hiệu</h2>
+                            <section class="category-list">
+                           
+                        <form class="from-cart" action="./webnoithat.html">
+                            <p>
+                                <input type="checkbox" id="vehicle1" name="vehicle1" onclick="toggleCheckboxes(this)" value="Bike">
+                            <label for="vehicle1">Nội thất decor</label><br>
+                            </p>
+                            <p>
+                                <input type="checkbox" id="vehicle2" name="vehicle1" onclick="toggleCheckboxes(this)" value="Car">
+                            <label for="vehicle2">Nội thất gia đình</label><br>
+                            </p>
+                            <p>
+                                <input type="checkbox" id="vehicle3" name="vehicle1" onclick="toggleCheckboxes(this)" value="Boat">
+                            <label for="vehicle3">Nội thất hiện đại</label><br>
+                            </p>
+                            <p>
+                                <input type="checkbox" id="vehicle4" name="vehicle1" onclick="toggleCheckboxes(this)" value="Bike" checked>
+                            <label for="vehicle4">Nội thất Ha-Tx</label><br>
+                            </p>
+                            <p>
+                                <input type="checkbox" id="vehicle5" name="vehicle1" onclick="toggleCheckboxes(this)" value="Car">
+                            <label for="vehicle5">Nội thất nail</label><br>
+                            </p>
+                            <p>
+                                <input type="checkbox" id="vehicle6" name="vehicle1" onclick="toggleCheckboxes(this)" value="Bike">
+                            <label for="vehicle6">Nội thất salon</label><br>
+                            </p>
+                            <p>
+                                <input type="checkbox" id="vehicle7" name="vehicle1" onclick="toggleCheckboxes(this)" value="Car">
+                            <label for="vehicle7">Nội thất spa</label><br>
+                            </p>
+                            <p>
+                                <input type="checkbox" id="vehicle8" name="vehicle1" onclick="toggleCheckboxes(this)" value="Boat">
+                            <label for="vehicle8">Nội thất tân cổ điển</label><br><br>
+                            </p>
+                            
+                            <!-- <input type="submit" value="Submit"> -->
+                          </form> 
+                            </section>
+                        </section>
+                        <section class="category">
+                            <h2 class="category-text boder_bottom">khoảng giá</h2>
+                            <section class="category-list">
+                           
+                        <form class="from-cart" action="./webnoithat.html">
+                            <p>
+                                <input type="checkbox" id="price1" name="price1" value="Bike">
+                            <label for="price1">0đ - 1.000.000đ</label><br>
+                            </p>
+                            <p>
+                                <input type="checkbox" id="price2" name="price2" value="Car">
+                            <label for="price2">1.000.000đ - 2.000.000đ</label><br>
+                            </p>
+                            <p>
+                                <input type="checkbox" id="price3" name="price3" value="Boat">
+                            <label for="price3">2.000.000d - 3.000.000đ</label><br>
+                            </p>
+                            <p>
+                                <input type="checkbox" id="price4" name="price4" value="Bike">
+                            <label for="price4">3.000.0000đ - 4.000.000đ</label><br>
+                            </p>
+                            <p>
+                                <input type="checkbox" id="price5" name="price5" value="Car">
+                            <label for="price5">4.000.000đ - 5.000.000đ</label><br>
+                            </p>
+                            <p>
+                                <input type="checkbox" id="price6" name="price6" value="Bike">
+                            <label for="price6">5.000.000đ - 10.000.000đ</label><br>
+                            </p>
+                            <p>
+                                <input type="checkbox" id="price7" name="price7" value="Car">
+                            <label for="price7">10.000.000đ - 20.000.000đ</label><br>
+                            </p>
+                            <p>
+                                <input type="checkbox" id="price8" name="price8" value="Boat">
+                            <label for="price8">Trên 20.000.000đ</label><br><br>
+                            </p>
+                            
+                            <!-- <input type="submit" value="Submit"> -->
+                          </form> 
+                            </section>
+                        </section>
+                        <section class="category">
+                            <h2 class="category-text boder_bottom">khuyến mại hót</h2>
+                            <section class="category-list">
+                                <img class="img-avata" src="/ảnh/kegolucgiacdecor.jpg" alt="">
+                            </section>
+                        </section>
+                        
+                    </nav>
+                
+               
+                <div class="navbar-text col pc-9">
+                    <div class="row-cart">
+                        <div class="user"> 
+                            <span>
+                                <a href="./webnoithat.html">Trang chủ</a>
+                                <i class="ti-angle-double-right"></i>
+                                <p>Sản phẩm</p>
+                            </span>
+                            <h4>Sản phẩm</h4>
+                            
+                        </div>
+                        <div class="user-list row">
+                            <div class="navigation-img-one pc-3 col">
+                                <div class="navigation-img-tag">
+                                    <img title="Combo bàn trang điểm thanh lịch hiện đại sang trọng BTD001" src="../ảnh/trangdiem1.jpg" alt="" class="img-new">
+                                    <!-- <img title="Combo bàn trang điểm thanh lịch hiện đại sang trọng BTD001" src="" alt="" class="img-new"> -->
+                                </div>
+                                
+                            <div class="text-list-one">
+                                <p>Combo bàn trang điểm thanh lịch hiện đại sang trọng BTD001</p>
+                                <div class="navigatinon-list-buy">
+                                    <span class="navigation-buy-price">Giá:</span>
+                                    <span class="navigation-buy-call">Liên hệ</span>
+                                </div>
+                                <div class="navigation-list-buy-icon">
+                                    <div class="buy-icon-search">
+                                        <i class="buy-search ti-search"></i>
+
+                                    </div>
+                                    <div class="buy-icon-shop">
+
+                                        <i class="buy-shop ti-shopping-cart"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="navigation-img-one pc-3 col">
+                            <div class="navigation-img-tag">
+                                <img title="Combo bàn trang điểm thanh lịch hiện đại sang trọng BTD002" src="../ảnh/trangdiem2.jpg" alt="" class="img-new">
+                            </div>
+                        <div class="text-list-one">
+                            <p>Combo bàn trang điểm thanh lịch hiện đại sang trọng BTD002</p>
+                            <div class="navigatinon-list-buy">
+                                <span class="navigation-buy-price">Giá:</span>
+                                <span class="navigation-buy-call">Liên hệ</span>
+                            </div>
+                            <div class="navigation-list-buy-icon">
+                                <div class="buy-icon-search">
+                                    <i class="buy-search ti-search"></i>
+
+                                </div>
+                                <div class="buy-icon-shop">
+
+                                    <i class="buy-shop ti-shopping-cart"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="navigation-img-one pc-3 col">
+                        <div class="navigation-img-tag">
+                            <img title="Combo bàn trang điểm thanh lịch hiện đại sang trọng BTD003" src="../ảnh/trangdiem3.jpg" alt="" class="img-new">
+                        </div>
+                    <div class="text-list-one">
+                        <p>Combo bàn trang điểm thanh lịch hiện đại sang trọng BTD003</p>
+                        <div class="navigatinon-list-buy">
+                            <span class="navigation-buy-price">Giá:</span>
+                            <span class="navigation-buy-call">Liên hệ</span>
+                        </div>
+                        <div class="navigation-list-buy-icon">
+                            <div class="buy-icon-search">
+                                <i class="buy-search ti-search"></i>
+
+                            </div>
+                            <div class="buy-icon-shop">
+
+                                <i class="buy-shop ti-shopping-cart"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="navigation-img-one pc-3 col">
+                    <div class="navigation-img-tag">
+                        <img title="Combo bàn trang điểm thanh lịch hiện đại sang trọng BTD004" src="../ảnh/trangdiem4.jpg" alt="" class="img-new">
+                    </div>
+                <div class="text-list-one">
+                    <p>Combo bàn trang điểm thanh lịch hiện đại sang trọng BTD004</p>
+                    <div class="navigatinon-list-buy">
+                        <span class="navigation-buy-price">Giá:</span>
+                        <span class="navigation-buy-call">Liên hệ</span>
+                    </div>
+                    <div class="navigation-list-buy-icon">
+                        <div class="buy-icon-search">
+                            <i class="buy-search ti-search"></i>
+
+                        </div>
+                        <div class="buy-icon-shop">
+
+                            <i class="buy-shop ti-shopping-cart"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+                        </div>
+                        <div class="user-list row">
+                            <div class="navigation-img-one pc-3 col">
+                                <div class="navigation-img-tag">
+                                    <img title="Combo bàn trang điểm thanh lịch hiện đại sang trọng BTD005" src="../ảnh/trangdiem5.jpg" alt="" class="img-new">
+                                </div>
+                            <div class="text-list-one">
+                                <p>Combo bàn trang điểm thanh lịch hiện đại sang trọng BTD005</p>
+                                <div class="navigatinon-list-buy">
+                                    <span class="navigation-buy-price">Giá:</span>
+                                    <span class="navigation-buy-call">Liên hệ</span>
+                                </div>
+                                <div class="navigation-list-buy-icon">
+                                    <div class="buy-icon-search">
+                                        <i class="buy-search ti-search"></i>
+
+                                    </div>
+                                    <div class="buy-icon-shop">
+
+                                        <i class="buy-shop ti-shopping-cart"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="navigation-img-one pc-3 col">
+                            <div class="navigation-img-tag">
+                                <img title="Combo bàn trang điểm thanh lịch hiện đại sang trọng BTD006" src="../ảnh/trangdiem6.jpg" alt="" class="img-new">
+                            </div>
+                        <div class="text-list-one">
+                            <p>Combo bàn trang điểm thanh lịch hiện đại sang trọng BTD006</p>
+                            <div class="navigatinon-list-buy">
+                                <span class="navigation-buy-price">Giá:</span>
+                                <span class="navigation-buy-call">Liên hệ</span>
+                            </div>
+                            <div class="navigation-list-buy-icon">
+                                <div class="buy-icon-search">
+                                    <i class="buy-search ti-search"></i>
+
+                                </div>
+                                <div class="buy-icon-shop">
+
+                                    <i class="buy-shop ti-shopping-cart"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="navigation-img-one pc-3 col">
+                        <div class="navigation-img-tag">
+                            <img title="Combo bàn trang điểm thanh lịch hiện đại sang trọng BTD007" src="../ảnh/trangdiem7.jpg" alt="" class="img-new">
+                        </div>
+                    <div class="text-list-one">
+                        <p>Combo bàn trang điểm thanh lịch hiện đại sang trọng BTD007</p>
+                        <div class="navigatinon-list-buy">
+                            <span class="navigation-buy-price">Giá:</span>
+                            <span class="navigation-buy-call">Liên hệ</span>
+                        </div>
+                        <div class="navigation-list-buy-icon">
+                            <div class="buy-icon-search">
+                                <i class="buy-search ti-search"></i>
+
+                            </div>
+                            <div class="buy-icon-shop">
+
+                                <i class="buy-shop ti-shopping-cart"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="navigation-img-one pc-3 col">
+                    <div class="navigation-img-tag">
+                        <img title="Combo bàn trang điểm thanh lịch hiện đại sang trọng BTD008" src="../ảnh/trangdiem8.jpg" alt="" class="img-new">
+                    </div>
+                <div class="text-list-one">
+                    <p>Combo bàn trang điểm thanh lịch hiện đại sang trọng BTD008</p>
+                    <div class="navigatinon-list-buy">
+                        <span class="navigation-buy-price">Giá:</span>
+                        <span class="navigation-buy-call">Liên hệ</span>
+                    </div>
+                    <div class="navigation-list-buy-icon">
+                        <div class="buy-icon-search">
+                            <i class="buy-search ti-search"></i>
+
+                        </div>
+                        <div class="buy-icon-shop">
+
+                            <i class="buy-shop ti-shopping-cart"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+                        </div>
+                        <div class="user-list row">
+                            <div class="navigation-img-one pc-3 col">
+                                <div class="navigation-img-tag">
+                                    <img title="Combo bàn trang điểm thanh lịch hiện đại sang trọng BTD009" src="../ảnh/trangdiem22.jpg" alt="" class="img-new">
+                                </div>
+                            <div class="text-list-one">
+                                <p>Combo bàn trang điểm thanh lịch hiện đại sang trọng BTD009</p>
+                                <div class="navigatinon-list-buy">
+                                    <span class="navigation-buy-price">Giá:</span>
+                                    <span class="navigation-buy-call">Liên hệ</span>
+                                </div>
+                                <div class="navigation-list-buy-icon">
+                                    <div class="buy-icon-search">
+                                        <i class="buy-search ti-search"></i>
+
+                                    </div>
+                                    <div class="buy-icon-shop">
+
+                                        <i class="buy-shop ti-shopping-cart"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="navigation-img-one pc-3 col">
+                            <div class="navigation-img-tag">
+                                <img title="Combo bàn trang điểm thanh lịch hiện đại sang trọng BTD010" src="../ảnh/trangdiem10.jpg" alt="" class="img-new">
+                            </div>
+                        <div class="text-list-one">
+                            <p>Combo bàn trang điểm thanh lịch hiện đại sang trọng BTD010</p>
+                            <div class="navigatinon-list-buy">
+                                <span class="navigation-buy-price">Giá:</span>
+                                <span class="navigation-buy-call">Liên hệ</span>
+                            </div>
+                            <div class="navigation-list-buy-icon">
+                                <div class="buy-icon-search">
+                                    <i class="buy-search ti-search"></i>
+
+                                </div>
+                                <div class="buy-icon-shop">
+
+                                    <i class="buy-shop ti-shopping-cart"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="navigation-img-one pc-3 col">
+                        <div class="navigation-img-tag">
+                            <img title="Combo bàn trang điểm thanh lịch hiện đại sang trọng BTD011" src="../ảnh/trangdiem11.jpg" alt="" class="img-new">
+                        </div>
+                    <div class="text-list-one">
+                        <p>Combo bàn trang điểm thanh lịch hiện đại sang trọng BTD011</p>
+                        <div class="navigatinon-list-buy">
+                            <span class="navigation-buy-price">Giá:</span>
+                            <span class="navigation-buy-call">Liên hệ</span>
+                        </div>
+                        <div class="navigation-list-buy-icon">
+                            <div class="buy-icon-search">
+                                <i class="buy-search ti-search"></i>
+
+                            </div>
+                            <div class="buy-icon-shop">
+
+                                <i class="buy-shop ti-shopping-cart"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="navigation-img-one pc-3 col">
+                    <div class="navigation-img-tag">
+                        <img title="Combo bàn trang điểm thanh lịch hiện đại sang trọng BTD012" src="../ảnh/trangdiem21.jpg" alt="" class="img-new">
+                    </div>
+                <div class="text-list-one">
+                    <p>Combo bàn trang điểm thanh lịch hiện đại sang trọng BTD012</p>
+                    <div class="navigatinon-list-buy">
+                        <span class="navigation-buy-price">Giá:</span>
+                        <span class="navigation-buy-call">Liên hệ</span>
+                    </div>
+                    <div class="navigation-list-buy-icon">
+                        <div class="buy-icon-search">
+                            <i class="buy-search ti-search"></i>
+
+                        </div>
+                        <div class="buy-icon-shop">
+
+                            <i class="buy-shop ti-shopping-cart"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+                        </div>
+                        <div class="user-list row">
+                            <div class="navigation-img-one pc-3 col">
+                                <div class="navigation-img-tag">
+                                    <img title="Combo bàn trang điểm thanh lịch hiện đại sang trọng BTD013" src="../ảnh/trangdiem13.jpg" alt="" class="img-new">
+                                </div>
+                            <div class="text-list-one">
+                                <p>Combo bàn trang điểm thanh lịch hiện đại sang trọng BTD013</p>
+                                <div class="navigatinon-list-buy">
+                                    <span class="navigation-buy-price">Giá:</span>
+                                    <span class="navigation-buy-call">Liên hệ</span>
+                                </div>
+                                <div class="navigation-list-buy-icon">
+                                    <div class="buy-icon-search">
+                                        <i class="buy-search ti-search"></i>
+
+                                    </div>
+                                    <div class="buy-icon-shop">
+
+                                        <i class="buy-shop ti-shopping-cart"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="navigation-img-one pc-3 col">
+                            <div class="navigation-img-tag">
+                                <img title="Combo bàn trang điểm thanh lịch hiện đại sang trọng BTD014" src="../ảnh/trangdiem14.jpg" alt="" class="img-new">
+                            </div>
+                        <div class="text-list-one">
+                            <p>Combo bàn trang điểm thanh lịch hiện đại sang trọng BTD014</p>
+                            <div class="navigatinon-list-buy">
+                                <span class="navigation-buy-price">Giá:</span>
+                                <span class="navigation-buy-call">Liên hệ</span>
+                            </div>
+                            <div class="navigation-list-buy-icon">
+                                <div class="buy-icon-search">
+                                    <i class="buy-search ti-search"></i>
+
+                                </div>
+                                <div class="buy-icon-shop">
+
+                                    <i class="buy-shop ti-shopping-cart"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="navigation-img-one pc-3 col">
+                        <div class="navigation-img-tag">
+                            <img title="Combo bàn trang điểm thanh lịch hiện đại sang trọng BTD015" src="../ảnh/trangdiem15.jpg" alt="" class="img-new">
+                        </div>
+                    <div class="text-list-one">
+                        <p>Combo bàn trang điểm thanh lịch hiện đại sang trọng BTD015</p>
+                        <div class="navigatinon-list-buy">
+                            <span class="navigation-buy-price">Giá:</span>
+                            <span class="navigation-buy-call">Liên hệ</span>
+                        </div>
+                        <div class="navigation-list-buy-icon">
+                            <div class="buy-icon-search">
+                                <i class="buy-search ti-search"></i>
+
+                            </div>
+                            <div class="buy-icon-shop">
+
+                                <i class="buy-shop ti-shopping-cart"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="navigation-img-one pc-3 col">
+                    <div class="navigation-img-tag">
+                        <img title="Combo bàn trang điểm thanh lịch hiện đại sang trọng BTD016" src="../ảnh/trangdiem16.jpg" alt="" class="img-new">
+                    </div>
+                <div class="text-list-one">
+                    <p>Combo bàn trang điểm thanh lịch hiện đại sang trọng BTD016</p>
+                    <div class="navigatinon-list-buy">
+                        <span class="navigation-buy-price">Giá:</span>
+                        <span class="navigation-buy-call">Liên hệ</span>
+                    </div>
+                    <div class="navigation-list-buy-icon">
+                        <div class="buy-icon-search">
+                            <i class="buy-search ti-search"></i>
+
+                        </div>
+                        <div class="buy-icon-shop">
+
+                            <i class="buy-shop ti-shopping-cart"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+                        </div>
+                        <div class="user-list row">
+                            <div class="navigation-img-one pc-3 col">
+                                <div class="navigation-img-tag">
+                                    <img title="Combo bàn trang điểm thanh lịch hiện đại sang trọng BTD017" src="../ảnh/trangdiem17.webp" alt="" class="img-new">
+                                </div>
+                            <div class="text-list-one">
+                                <p>Combo bàn trang điểm thanh lịch hiện đại sang trọng BTD017</p>
+                                <div class="navigatinon-list-buy">
+                                    <span class="navigation-buy-price">Giá:</span>
+                                    <span class="navigation-buy-call">Liên hệ</span>
+                                </div>
+                                <div class="navigation-list-buy-icon">
+                                    <div class="buy-icon-search">
+                                        <i class="buy-search ti-search"></i>
+
+                                    </div>
+                                    <div class="buy-icon-shop">
+
+                                        <i class="buy-shop ti-shopping-cart"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="navigation-img-one pc-3 col">
+                            <div class="navigation-img-tag">
+                                <img title="Combo bàn trang điểm thanh lịch hiện đại sang trọng BTD018" src="../ảnh/trangdiem18.jpg" alt="" class="img-new">
+                            </div>
+                        <div class="text-list-one">
+                            <p>Combo bàn trang điểm thanh lịch hiện đại sang trọng BTD018</p>
+                            <div class="navigatinon-list-buy">
+                                <span class="navigation-buy-price">Giá:</span>
+                                <span class="navigation-buy-call">Liên hệ</span>
+                            </div>
+                            <div class="navigation-list-buy-icon">
+                                <div class="buy-icon-search">
+                                    <i class="buy-search ti-search"></i>
+
+                                </div>
+                                <div class="buy-icon-shop">
+
+                                    <i class="buy-shop ti-shopping-cart"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="navigation-img-one pc-3 col">
+                        <div class="navigation-img-tag">
+                            <img title="Combo bàn trang điểm thanh lịch hiện đại sang trọng BTD019" src="../ảnh/trangdiem19.jpg" alt="" class="img-new">
+                        </div>
+                    <div class="text-list-one">
+                        <p>Combo bàn trang điểm thanh lịch hiện đại sang trọng BTD019</p>
+                        <div class="navigatinon-list-buy">
+                            <span class="navigation-buy-price">Giá:</span>
+                            <span class="navigation-buy-call">Liên hệ</span>
+                        </div>
+                        <div class="navigation-list-buy-icon">
+                            <div class="buy-icon-search">
+                                <i class="buy-search ti-search"></i>
+
+                            </div>
+                            <div class="buy-icon-shop">
+
+                                <i class="buy-shop ti-shopping-cart"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="navigation-img-one pc-3 col">
+                    <div class="navigation-img-tag">
+                        <img title="Combo bàn trang điểm thanh lịch hiện đại sang trọng BTD020" src="../ảnh/trangdiem20.jpg" alt="" class="img-new">
+                    </div>
+                <div class="text-list-one">
+                    <p>Combo bàn trang điểm thanh lịch hiện đại sang trọng BTD020</p>
+                    <div class="navigatinon-list-buy">
+                        <span class="navigation-buy-price">Giá:</span>
+                        <span class="navigation-buy-call">Liên hệ</span>
+                    </div>
+                    <div class="navigation-list-buy-icon">
+                        <div class="buy-icon-search">
+                            <i class="buy-search ti-search"></i>
+
+                        </div>
+                        <div class="buy-icon-shop">
+
+                            <i class="buy-shop ti-shopping-cart"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+                        </div>
+
+                    </div>
+    
+                </div>
+            </div>
+            <ul class="pagigation-home">
+                <li class="pagigation-item">
+                    <a class="pagigation-item__link color-icon-bar cusor-none" href="./product.html">1</a>
+                </li>
+                <li class="pagigation-item btn-hover">
+                    <a class="pagigation-item__link" href="./product_2.html">2</a>
+                </li>
+                <li class="pagigation-item btn-hover">
+                    <a class="pagigation-item__link" href="./product_3.html">3</a>
+                </li>
+                <li class="pagigation-item btn-hover">
+                    <a class="pagigation-item__link" href="./product_4.html">4</a>
+                </li>
+                <li class="pagigation-item btn-hover">
+                    <a class="pagigation-item__link" href="./product_5.html">5</a>
+                </li>
+                <li class="pagigation-item btn-hover">
+                    <a class="pagigation-item__link" href="./product_6.html">6</a>
+                </li>
+                <li class="pagigation-item">
+                    <a class="pagigation-item__link cusor-none" href="">...</a>
+                </li>
+                <li class="pagigation-item btn-hover">
+                    <a class="pagigation-item__link" href="./product_7.html">48</a>
+                </li>
+                <li class="pagigation-item btn-hover">
+                    <a class="pagigation-item__link" href="">
+                        <i class="item-icon-bar ti-angle-double-right"></i>
+                    </a>
+                </li>
+            </ul>
+            
+        </div>   
+        <div id="footer">
+            <div class="header">
+                <div class="header-list-logo">
+                    <!-- <img src="./ảnh/logohatx.png" alt="" class="img-logo"> -->
+                    <div title="Nội Thất Ha-tx" class="header-img">
+                        <div class="header-img-card">
+                            <i class="icon-circle fa-solid fa-circle-h"></i>
+                            <h4>Ha-Tx</h4>
+                        </div>
+                        <p>nội thất gia đinh, spa, nail, salon</p>
+                    </div>
+                    <ul class="text-list">
+                        <li>văn phòng: Nguyễn Ngọc Vũ, Cầu Giấy, Hà Nội</li>
+                        <li>Nhà xưởng Spa:Nghĩa hưng, quốc oai, Hà nội</li>
+                        <li>nhà xưởng kệ lắp ghép: phù cừ, hưng yên</li>
+                        <li>hotline: 0327761969</li>
+                        <li>gmail: trinhxuanha01@gmail.com</li>
+                        <li class="textnone">Website: https://hatx.com</li>
+                        <div class="list-logo-icon">
+                            <ul class="logo-icon">
+                                <li>
+                                    <a href="https://www.facebook.com/profile.php?id=100046515844695">
+    
+                                        <i class="ti-facebook"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://twitter.com/Ha__Tx">
+                                        <i class="ti-twitter-alt"></i>
+    
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.pinterest.com/waittwoyear666/">
+    
+                                        <i class="ti-pinterest"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.instagram.com/ha___tx/">
+                                        <i class="ti-instagram"></i>
+                                    </a>
+                                </li>
+                                
+                            </ul>
+                        </div>
+                    </ul>
+                </div>
+                <div class="header-list-cart">
+                    <div class="list-cart-one">
+                        <h5>danh mục</h5>
+                        <ul class="text-cart">
+                            <li>nội thất spa</li>
+                            <li>nội thất gia đình</li>
+                            <li>nội thất nail</li>
+                            <li>nội thất salon tóc</li>
+                            <li>nội thất decor trang trí</li> 
+                            <li>ảnh bàn giao khách hàng</li>
+                        </ul>
+                    </div>
+                    <div class="list-cart-two">
+                        <h5>chính sách</h5>
+                        <ul class="text-cart">
+                            <li>trang chủ</li>
+                            <li>giới thiệu</li>
+                            <li>sản phẩm</li>
+                            <li>tin tức</li>
+                            <li>liên hệ</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="header-list-sale">
+                  <div class="list-sale">
+                    <h5>nhận thông tin khuyến mãi</h5>
+                    <ul class="text-sale">
+                        <li>đừng bỏ lỡ hàng ngàn sản phẩm và chương trình siêu hấp dẫn</li>
+                    </ul>
+                    <form action="">
+                        <div class="navigation-search">
+                            <input type="email" class="search-input" required id="" placeholder="Nhập địa chỉ email của bạn"></input>                         
+                         </div>
+     
+                            <input type="submit" class="btn-read-text" id="" value="Đăng Ký"
+                            required></input>
+                    </form>   
+    
+                  </div>  
+                </div>
+            </div>
+            <div class="navbar">
+                <div class="card-navbar">
+                    <div class="navbar-list">
+                        <!-- <i class="fa-regular fa-copyright"></i> -->
+                        <p>&copy; bản quyền thuộc về nội thất Ha-Tx </p>
+                        <Span>cung cấp bởi Ha-Tx</Span>
+                    </div>
+                    <div class="list-logo">
+                        <img src="./ảnh/cardallhh.jpg" alt="" class="logo-img-one">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>    

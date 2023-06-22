@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="test.css">
+</head>
+<body>
+    <span class="header-cart-notice">0</span>
+<a href="" class="btn-cart-input">MUA HÀNG</a>
+<script>
+    // Lấy phần tử HTML hiển thị số lượng đơn hàng
+    var orderCountElement = document.querySelector('.header-cart-notice');
+    
+    // Lấy phần tử HTML của nút "MUA HÀNG"
+    var buyButton = document.querySelector('.btn-cart-input');
+    
+    // Khởi tạo biến đếm số lượng đơn hàng
+    var orderCount = 0;
+    
+    // Lắng nghe sự kiện click trên nút "MUA HÀNG"
+    buyButton.addEventListener('click', function(event) {
+      event.preventDefault(); // Ngăn chặn hành vi mặc định của nút
+    
+      // Tăng số lượng đơn hàng lên 1 sau mỗi lần click
+      orderCount++;
+      
+      // Cập nhật số lượng đơn hàng trên phần tử HTML
+      orderCountElement.textContent = orderCount;
+    });
+  </script>
+</body>
+</html>

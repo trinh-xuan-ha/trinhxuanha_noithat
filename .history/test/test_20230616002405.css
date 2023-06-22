@@ -1,0 +1,10 @@
+button {
+  background-color: black;
+  color: aliceblue;
+  cu
+}
+
+button.active {
+  background-color: red; /* Màu khi được click */
+  color: black;
+}

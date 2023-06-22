@@ -1,0 +1,7 @@
+button {
+  ba
+}
+
+button.active {
+  color: red; /* Màu khi được click */
+}

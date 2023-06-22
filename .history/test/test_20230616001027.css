@@ -1,0 +1,7 @@
+.nav-link {
+    color: red; /* Màu mặc định của nút */
+  }
+  
+  .nav-link.active {
+    color: black; /* Màu khi nút được nhấp vào */
+  }
